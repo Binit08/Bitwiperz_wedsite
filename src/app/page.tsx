@@ -36,9 +36,17 @@ export default function LandingPage() {
       Protect your privacy and recycle devices with confidence.  
       Bitwiperz erases every trace of data — permanently and verifiably — in just one click.  
     </p>
-    <button className="px-6 py-3 rounded-xl bg-white text-indigo-600 hover:bg-gray-200 font-medium text-lg shadow-md transition">
-      DOWNLOAD NOW
-    </button>
+   <a 
+  href="https://github.com/Binit08/Bitwiperz_app1/releases/download/v1.0.2/Bitwiperz-1.0.0-arm64.dmg" 
+  download
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="px-6 py-3 rounded-xl bg-white text-indigo-600 hover:bg-gray-200 font-medium text-lg shadow-md transition">
+    DOWNLOAD NOW
+  </button>
+</a>
+
   </div>
 </header>
 
